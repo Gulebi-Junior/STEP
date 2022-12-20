@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "login": "gleb",
+        "password": "1234"
+    },
+    {
+        "id": 2,
+        "login": "glob",
+        "password": "1235"
+    },
+    {
+        "id": 3,
+        "login": "glib",
+        "password": "1246"
+    }
+]
