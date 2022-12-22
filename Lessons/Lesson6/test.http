@@ -1,0 +1,36 @@
+### GET Users
+
+GET http://localhost:3000/users
+
+### GET User by id
+
+GET http://localhost:3000/users/34
+
+### POST User by id
+
+POST http://localhost:3000/users
+content-type: application/json
+
+{ 
+    "department": "IT", 
+    "name": "Globus" 
+}
+
+### DELETE User by id
+
+DELETE http://localhost:3000/users/4
+
+### PUT User by id
+
+PUT http://localhost:3000/users
+content-type: application/json
+
+{ 
+    "id": 1,
+    "department": "Sales", 
+    "name": "Globster" 
+}
+
+### GET Users by department
+
+GET http://localhost:3000/users/department/IT
