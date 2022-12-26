@@ -1,0 +1,11 @@
+[
+    { "id": 1, "model": "Toyota", "price": "60.000.000 KZT" },
+    { "id": 2, "model": "BMW", "price": "35.000.000 KZT" },
+    { "id": 3, "model": "Mercedes", "price": "50.000.000 KZT" },
+    { "id": 1, "model": "Toyota", "price": "60.000.000 KZT" },
+    { "id": 2, "model": "BMW", "price": "35.000.000 KZT" },
+    { "id": 3, "model": "Mercedes", "price": "50.000.000 KZT" },
+    { "id": 1, "model": "Toyota", "price": "60.000.000 KZT" },
+    { "id": 2, "model": "BMW", "price": "35.000.000 KZT" },
+    { "id": 3, "model": "Mercedes", "price": "50.000.000 KZT" }
+]

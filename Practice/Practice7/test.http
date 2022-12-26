@@ -1,0 +1,11 @@
+### POST Component
+
+POST http://localhost:3000/components
+content-type: application/json
+
+{ 
+    "name": "dfsd", 
+    "params": "pup",
+    "hbs": "lol",
+    "styles": "fef"
+}
