@@ -1,0 +1,15 @@
+### GET Component
+
+GET http://localhost:3000/components
+
+### POST Component
+
+POST http://localhost:3000/components
+content-type: application/json
+
+{ 
+    "name": "dfsd", 
+    "params": { "text":"Hello World!" },
+    "hbs": "<h1>{{ text }}</h1>",
+    "styles": "h1 {color:red}"
+}

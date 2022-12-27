@@ -4,7 +4,7 @@ const router = express.Router();
 const { COMPONENTS_FILE_PATH } = require("../utils");
 
 const getComponents = () => {
-    return JSON.parse(fs.readFileSync(COMPONENTS_FILE_PATH, { encoding: "utf-8" }));
+    return JSON.parse(fs.readFileSync(COMPONENTS_FILE_PATH, { encoding: "utf-8" }) || "[]");
 };
 
 const setComponents = (arr) => {
@@ -26,6 +26,11 @@ router.post("/", (req, res) => {
     setComponents([...components, newComponent]);
 
     res.status(201).send("Added");
+});
+
+router.get("/", (req, res) => {
+    const components = getComponents();
+    res.status(200).send(components);
 });
 
 module.exports = router;

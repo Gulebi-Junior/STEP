@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "dfsd",
+        "params": "{ \"text\": \"Hello World!\" }",
+        "hbs": "<h1>{{text}}</h1>",
+        "styles": "h1{color:red}"
+    },
+    {
+        "id": 2,
+        "name": "footer",
+        "params": "{\n  \"title\": \"Best Title!\"\n}",
+        "hbs": "<div id=\"footer\">\n  <h3>{{title}}</h3>\n</div>",
+        "styles": "#footer{\n  background: azure;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #343434;\n}"
+    }
+]
