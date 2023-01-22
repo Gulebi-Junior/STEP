@@ -1,0 +1,22 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            p { margin: 0px; } li { margin-bottom: 10px;}
+        </style>
+        <title>Users Page</title>
+    </head>
+    <body>
+        <ul>
+            {{#each users}}
+                <li>
+                    <p><strong>Name:</strong> {{this.name}}</p>
+                    <p><strong>Login:</strong> {{this.login}}</p>
+                    <p><strong>Password:</strong> {{this.password}}</p>
+                </li>
+            {{/each}}
+        </ul>
+    </body>
+</html>
