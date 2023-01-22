@@ -1,4 +1,1 @@
-[
-    { "id": 1, "model": "Toyota" },
-    { "id": 2, "model": "BMW" }
-]
+[{"id":1,"model":"Toyota"},{"id":2,"model":"BMW"}]

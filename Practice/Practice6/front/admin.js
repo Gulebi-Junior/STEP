@@ -20,7 +20,7 @@ async function getCars() {
 }
 
 async function saveCar(id, event) {
-    const model = event.path[1].querySelector("#model-input").value;
+    const model = event.composedPath()[1].querySelector("#model-input").value;
 
     await fetch(url + "/cars/" + id, {
         method: "PUT",
@@ -38,7 +38,7 @@ async function deleteCar(id) {
 }
 
 async function addCar(event) {
-    const model = event.path[1].querySelector("#model-input").value;
+    const model = event.composedPath()[1].querySelector("#model-input").value;
 
     await fetch(url + "/cars", {
         method: "POST",
