@@ -7,7 +7,6 @@
     "prettier.requireConfig": true,
     "cSpell.words": [
         "btns",
-        "dfsd",
         "gleb",
         "guleb",
         "ivanov",
@@ -15,8 +14,5 @@
         "subrow"
     ],
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSaveTimeout": 2000,
-    "emmet.includeLanguages": {
-        "javascript": "html"
-    }
+    "editor.formatOnSaveTimeout": 2000
 }
